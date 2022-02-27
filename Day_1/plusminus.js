@@ -16,6 +16,9 @@ function plusminus(Array) {
       //   console.log(`zero count${i}th time` + zeroCount)
     }
   }
+  // arr.forEach((item) => {
+  //   item < 0 ? minus++ : item === 0 ? zero++ : plus++
+  // })
   postiveRatio = positiveCount / Array.length
   negativeRatio = negativeCount / Array.length
   zeroRatio = zeroCount / Array.length
